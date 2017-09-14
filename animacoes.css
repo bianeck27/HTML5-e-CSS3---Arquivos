@@ -63,3 +63,31 @@ section{                                /*div que contém as outras divs com pla
     float: left;                        /*flutuar à esquerda*/
     width: 660px;                       /*largura de 660px*/
 }
+
+@media print{                           /*Início do @media print*/
+    *{
+        background: transparent !important;
+        border-color: #000 !important;
+        box-shadow: none !important;
+        color: #000 !important;
+        text-shadow: none !important;
+    }
+    a{
+        text-decoration: underline !important;
+    }
+    a[href]::after{
+        content: " (" attr(href) ") ";
+    }
+    a[href^="javascript:"]::after,a[href^="#"]::after{
+        content: "";
+    }
+    /*article{*/
+        /*page-break-after: always;*/
+    /*}*/
+
+    p{
+        page-break-inside: avoid;
+    }
+
+}                                       /*Fim do @media print*/
+
