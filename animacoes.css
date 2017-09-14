@@ -10,18 +10,17 @@ body{
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.6;                   /*espaçamento de 160% entre as linhas*/
 }
-
-.place{
+article{
     background-color: #FFF;             /*Fundo branco nas caixinhas dos places*/
     border: 1px solid #CCC;             /*1px de espessura, linha sólida e de cor cinza*/
     margin-bottom: 20px;                /* margem abaixo de 20 pixels*/
     padding: 10px;                      /*espaçamento interno em todos os lados de 10px*/
 }
-.place h2{                              /* Definições do h2 contido no place*/
+article h2{                              /* Definições do h2 contido no place*/
     border-bottom: 1px dashed #7e9f19;  /*Borda verde de 1px e tracejada embaixo*/
     margin: 0;                          /*Margem 0 em todos os lados do elemento h2 do place*/
 }
-.place a{                               /*Links nos Places*/
+article a{                               /*Links nos Places*/
     color: #2C88A7;
     font-weight: bold;                  /*Largura da fonte negrito*/
 }
@@ -33,34 +32,34 @@ h1 a:hover{                             /*Ao passar o mouse por cima do link a f
     background-color: #7e9f19;          /*cor de fundo verde*/
     color: #FFF;                        /*cor da fonte branca*/
 }
-.place img{                             /*imagens filhas de elemento com a classe place*/
+article img{                             /*imagens filhas de elemento com a classe place*/
     border: 1px solid #7e9f19;          /*borda de 1px sólida e verde*/
     float: left;                        /*flutuar à esquerda*/
-    margin: 10px 10px 0 0;              /*margens de 10px no topo, 10px à direita, 0 em baixo e á esquerda*/
+    margin: 10px 10px 0 0;              /*margens de 10px topo, 10px direita, 0 baixo e esquerda*/
     padding: 2px;                       /*espaçamento das bordas de 2px*/
 }
 .clear{                                 /*classe feita para arrumar o problema das imagens nos places*/
     clear: both;                        /*limpa a flutuação de elementos em ambos os lados*/
 }
-.footer{                                /*classe do rodapé*/
+footer{                                /*classe do rodapé*/
     font-size: 12px;                    /*tamanho da fonte*/
     text-align: center;                 /*alinhamento centralizado do texto*/
 }
-.sidenote{                              /*classe da barra lateral*/
+aside{                              /*classe da barra lateral*/
     background-color: #FFFBE4;
     border: 1px solid #C9BC8F;
     float: right;                       /*flutuar à direita*/
     padding: 10px;
     width: 260px;                       /*largura de 260px*/
 }
-.sidenote h3{                           /*h3 da barra lateral*/
+aside h3{                           /*h3 da barra lateral*/
     font-size: 14px;
     margin-top: 0;
 }
-.sidenote ol{                           /*lista ordenada dentro da barra lateral*/
+aside ol{                           /*lista ordenada dentro da barra lateral*/
     font-size: 12px;
 }
-.places{                                /*div que contém as outras divs com place*/
+section{                                /*div que contém as outras divs com place*/
     float: left;                        /*flutuar à esquerda*/
     width: 660px;                       /*largura de 660px*/
 }
