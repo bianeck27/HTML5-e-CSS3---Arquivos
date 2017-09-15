@@ -1,0 +1,48 @@
+.box{
+    margin: 0 auto;
+    width: 480px;
+}
+
+div{
+    font-weight: bold;
+    height:50px;
+    line-height:25px;
+    margin-bottom:10px;
+    padding:10px;
+    text-align: center;
+    width:220px;
+}
+.blue{
+    background-color: #4377FA;
+    /*background-image: linear-gradient(top, #4377FA, #0537B7);*/
+    background-image: -webkit-linear-gradient(top, #4377FA, #0537B7);
+    float: left;
+
+}
+.reverse-blue{
+    background-color: #0537B7;
+    /*background-image: linear-gradient(top, #0537B7, #4377FA);*/
+    background-image: -webkit-linear-gradient(top, #0537B7, #4377FA);
+    float: left;
+
+}
+.omg-pink{
+    background-color: #FC0050;
+    /*background-image: linear-gradient(top right, #FC0050, #FF79A3);*/
+    background-image: -webkit-linear-gradient(top right, #FC0050, #FF79A3);
+    clear: both;
+    float: left;
+}
+.stops{
+    background-color: #F5B951;
+    /*background-image: linear-gradient(top, #F5B951 48%, #F2A31C 56%);*/
+    background-image: -webkit-linear-gradient(top, #F5B951 48%, #F2A31C 56%);
+    float: left;
+}
+.blue, .reverse-blue{
+    color: #fff;
+}
+.blue,.reverse-blue,.stops,.omg-pink{
+    display: block;
+    position: relative;
+}
