@@ -1,0 +1,48 @@
+section{
+    margin: 0 auto;
+    width: 800px;
+    border-left: 2px solid dimgray;
+    border-right: 2px solid dimgray;
+    height: 800px;
+    padding:10px;
+}
+figure{
+    position: relative;
+}
+img{
+    display: block;
+}
+figcaption{
+    bottom:5px;
+    margin: 0 5px;
+    padding: 5px;
+    position: absolute;
+    width:300px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+}
+ul{
+    height:35px;
+    list-style: none;
+    padding:0;
+    width:210px;
+    background-color: #4cf;
+    color: white;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+li{
+    float: left;
+    line-height:35px;
+    font-size: 0.9em;
+    width:50px;
+    text-align: center;
+    border-left:1px solid rgba(255,255,255,0.3);
+    border-right:1px solid rgba(0,0,0,0.3);
+}
+li:first-child{
+    border-left:none;
+}
+li:last-child{
+    border-right:none;
+}
