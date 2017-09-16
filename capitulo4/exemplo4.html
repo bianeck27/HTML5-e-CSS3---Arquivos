@@ -17,6 +17,7 @@
         padding: 10px;
         position: relative;
         width: 300px;
+        box-shadow: 3px 3px 3px #AAA;
     }
     .help::before{
         border-color: transparent #D3CDAE transparent transparent;
@@ -30,6 +31,8 @@
     }
     .center{
         width: 600px;
+        margin: 0 auto;
+        padding:50px;
     }
     .tip::before{
         content: "\261E";
@@ -67,6 +70,12 @@
     .small-button{
         font-size: 0.9em;
     }
+    input::focus{
+        border:1px solid #999;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.25) inset;
+        padding:2px 5px;
+        outline: none;
+    }
 
 </style>
 <body>
@@ -79,13 +88,16 @@
     <br><br><br>
 
 
-</div>
+
 <blockquote>
 O problema com citações na Internet é que você não pode confirmar a sua veracidade.
 </blockquote>
-<br><br><br>
+<br><br>
+    Faça sua pesquisa aqui: <input type="text">
+    <br><br>
 <a href="#" class="button primary-button big-button">Enviar mensagem</a>
 <a href="#" class="button small-button">Cancelar</a>
+</div>
 
 
 </body>
