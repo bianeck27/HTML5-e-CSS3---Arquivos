@@ -1,0 +1,11 @@
+section{
+    margin: 0 auto;
+    width: 600px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    height: 800px;
+    padding:10px;
+}
+.center{
+    margin: 10px auto;
+}

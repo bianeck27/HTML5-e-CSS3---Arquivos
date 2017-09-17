@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../estilo.css">
+    <style>
+        label{
+            display: inline-block;
+            font-size: 0.9em;
+            font-weight: bold;
+            width:90px;
+        }
+        input, textarea{
+            display: inline-block;
+            width:200px;
+            border: 1px solid #ccc;
+            box-shadow:  inset 2px 2px 2px #eee;
+            font-size: 0.9em;
+            padding:2px 5px;
+        }
+        textarea{
+            height: 100px;
+        }
+        .hint{
+            background-color: #FFFBE4;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            font-size: 0.8em;
+            margin-left:20px;
+            padding:3px;
+            display: none;
+        }
+        input:focus + .hint, textarea:focus + .hint{
+            display: inline-block;
+        }
+        .error{
+            color: red;
+            display: block;
+            font-size: 0.8em;
+            font-style: italic;
+            margin:5px 0 0 90px;
+        }
+        button{
+            background-color: #6DA033;
+            background-image: -webkit-linear-gradient(bottom, #6da033 47%,#87c442 55%);
+            border-radius: 13px;
+            border:1px solid #588129;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+            color: white;
+            font-size:0.8em;
+            font-weight: bold;
+            padding:5px 10px;
+            text-shadow: -1px -1px 0 rgba(0,0,0,0.6);
+        }
+        button:hover{
+            background-color: #618F2D;
+            background-image: -webkit-linear-gradient(bottom,#618f2d 47%, #79b238 55%);
+            border-color: #4E7324;
+        }
+        button:active{
+            background-color: #618f2d;
+            background-image: none;
+            border-color: #405E1E;
+            box-shadow: inset 0 2px 1px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <form method="post" action="">
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" autofocus>
+            <span class="hint">por exemplo, seunome@dominio.com</span>
+            <span class="error">Preencha o seu e-mail corretamente.</span>
+        </p>
+        <p>
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject">
+            <span class="hint">Nos diga qual é o seu problema ou ideia.</span>
+        </p>
+        <p>
+            <label for="content">Mensagem:</label>
+            <textarea id="content"></textarea>
+            <span class="hint">Escreva a sua mensagem, em até 500 caracteres.</span>
+        </p>
+        <button>Enviar Mensagem</button>
+    </form>
+
+</body>
+</html>
