@@ -27,21 +27,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exemplo1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/capitulo7/exemplo1.html">
+      <file leaf-file-name="exemplo1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capitulo8/exemplo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+            <state relative-caret-position="322">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estilos.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capitulo8/estilos.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exemplo5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/capitulo8/exemplo5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exemplo4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capitulo8/exemplo4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exemplo3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capitulo8/exemplo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="746">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="exemplo2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/capitulo7/exemplo2.html">
+        <entry file="file://$PROJECT_DIR$/capitulo8/exemplo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -97,6 +137,13 @@
         <option value="$PROJECT_DIR$/capitulo6/exemplo10.html" />
         <option value="$PROJECT_DIR$/capitulo7/exemplo2.html" />
         <option value="$PROJECT_DIR$/capitulo7/exemplo1.html" />
+        <option value="$PROJECT_DIR$/capitulo8/exemplo1.html" />
+        <option value="$PROJECT_DIR$/capitulo8/exemplo2.html" />
+        <option value="$PROJECT_DIR$/capitulo7/exemplo3.html" />
+        <option value="$PROJECT_DIR$/capitulo8/exemplo3.html" />
+        <option value="$PROJECT_DIR$/capitulo8/exemplo4.html" />
+        <option value="$PROJECT_DIR$/capitulo8/estilos.css" />
+        <option value="$PROJECT_DIR$/capitulo8/exemplo5.html" />
       </list>
     </option>
   </component>
@@ -148,7 +195,23 @@
             <path>
               <item name="HTML5 e CSS3" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML5 e CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="auxiliar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML5 e CSS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML5 e CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="auxiliar" type="462c0819:PsiDirectoryNode" />
+              <item name="exemplos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML5 e CSS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML5 e CSS3" type="462c0819:PsiDirectoryNode" />
               <item name="capitulo7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML5 e CSS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML5 e CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="capitulo8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,13 +233,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\GoogleDrive\HTML5 e CSS3" />
-      <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo6" />
-      <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo5" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\GoogleDrive\HTML5 e CSS3" />
+      <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo8" />
+      <recent name="G:\GoogleDrive\HTML5 e CSS3" />
+      <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo6" />
       <recent name="G:\GoogleDrive\HTML5 e CSS3\capitulo5" />
     </key>
   </component>
@@ -217,12 +281,12 @@
       <workItem from="1505486085471" duration="7371000" />
       <workItem from="1505507692885" duration="9636000" />
       <workItem from="1505579618418" duration="8621000" />
-      <workItem from="1505648848904" duration="10151000" />
+      <workItem from="1505648848904" duration="17068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67221000" />
+    <option name="totallyTimeSpent" value="74138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1932" height="1045" extended-state="6" />
@@ -257,55 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animacoes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitulo5/exercicio2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitulo5/exercicio3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitulo5/exercicio4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitulo5/exercicio4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitulo4/exemplo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capitulo4/exemplo2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -589,9 +604,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/exemplo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/capitulo7/exemplo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="-404">
           <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding />
         </state>
@@ -599,8 +622,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capitulo7/exemplo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/exemplo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo7/exemplo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/exemplo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/exemplo4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capitulo8/exemplo5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
